@@ -44,5 +44,9 @@ print(X_train_tr)
 
 #wybieramy model
 #1. regresja logistyczna - dobra do predykcji klas binarnych
-#2.
+#2. SVM
+
+from sklearn.svm import SVC
+model = SVC(kernel='linear')
+model.fit(X_train_tr,y_train)
 
