@@ -1,5 +1,5 @@
 from sklearn.metrics import ConfusionMatrixDisplay
-from sklearn.matrics import ClassificationReport
+from sklearn.metrics import classification_report
 
 def print_classification_report(y_train, y_train_pred,
                                y_test, y_test_pred):
